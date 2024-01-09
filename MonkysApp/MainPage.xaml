@@ -3,16 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MonkysApp.MainPage">
 
-    <StackLayout>
+    <StackLayout  BackgroundColor="LightGreen">
 
-        <Label Text="Monkies Gallery" FontSize="50" TextColor="Black" FontFamily="Ramai" BackgroundColor="LightGreen"/>
+        <Label Text="Monkies Gallery" FontSize="50" TextColor="Black" FontFamily="Ramai" HorizontalTextAlignment="Center"/>
 
         <Button Clicked="UpBtn" Text="Go up"  BackgroundColor="ForestGreen" BorderColor="DarkGreen" BorderWidth="2"/>
-        <Image x:Name="MonkeyPic" />
+        <Image x:Name="MonkeyPic" HeightRequest="350"/>
         <Button Clicked="DownBtn" Text="Go Down"  BackgroundColor="ForestGreen" BorderColor="DarkGreen" BorderWidth="2"/>
         
        
     
     </StackLayout>
-    //
+    
 </ContentPage>
