@@ -56,6 +56,7 @@ public partial class MonkeyPics2 : ContentPage
         {
             bt.IsEnabled = true;
         }
+        //
     }
     private void DownBtn(object sender, EventArgs e)
     {
